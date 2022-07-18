@@ -2162,17 +2162,17 @@ p.nominalBounds = new cjs.Rectangle(-90.5,-50.6,179,99.3);
 	this.button = new lib.uopgrade_btn();
 	this.button.name = "button";
 	this.button.parent = this;
-	this.button.setTransform(83.9,54.5);
+	this.button.setTransform(63.1,50.7);
 	this.timeline.addTween(cjs.Tween.get(this.button).wait(45));
 	// text
 	this.instance = new lib.treatment_text();
 	this.instance.parent = this;
-	this.instance.setTransform(-31,0);
+	this.instance.setTransform(-51.8,-42.6);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(45));
 	// icon
 	this.instance_1 = new lib.health();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(85,-26,0.542,0.542);
+	this.instance_1.setTransform(64,-69,0.542,0.542);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(45));
 	// highlight
 	this.instance_2 = new lib.treatment_hl_anim();
@@ -3697,8 +3697,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"index_atlas_P_.png?1658149187813", id:"index_atlas_P_"},
-		{src:"index_atlas_NP_.jpg?1658149187813", id:"index_atlas_NP_"}
+		{src:"index_atlas_P_.png?1658151673574", id:"index_atlas_P_"},
+		{src:"index_atlas_NP_.jpg?1658151673574", id:"index_atlas_NP_"}
 	],
 	preloads: []
 };
@@ -3826,11 +3826,11 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:200px; height:200px">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:100%; height:100%">
 		<canvas id="canvas" width="200" height="200" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:200px; height:200px; position: absolute; left: 0px; top: 0px; display: none;">
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100%; height:100%; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:200px; width: 200px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=_preloader.gif?1658149187983 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:100%; width: 100%; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=_preloader.gif style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
